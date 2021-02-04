@@ -49,11 +49,13 @@ export default {
   padding: 15px;
   margin: 15px;
   width: 100%;
+
   ul {
     padding: 5px;
     list-style-type: none;
     text-align: left;
     margin: 0;
+
     li {
       padding: 5px;
       border-bottom: 1px solid grey;
@@ -63,6 +65,7 @@ export default {
   }
   .button-wrapper {
     margin-top: 25px;
+
     .button {
       background: #109cf1;
       border-radius: 10px;

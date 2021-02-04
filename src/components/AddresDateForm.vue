@@ -91,12 +91,15 @@ export default {
 .form {
   overflow: auto;
   height: 100%;
+
   h3 {
     margin: 30px;
   }
+
   .button-wrapper {
     margin: 5px;
     margin-bottom: 15px;
+
     .button {
       background: #109cf1;
       border-radius: 10px;
@@ -108,12 +111,14 @@ export default {
       outline: none;
     }
   }
+
   .input-field {
     padding: 5px;
     margin: 15px;
     height: 40px;
     flex-direction: column;
     display: flex;
+
     input {
       padding: 10px;
       border-radius: 4px;
@@ -121,6 +126,7 @@ export default {
       width: 80%;
       outline: none;
     }
+
     .invalid {
       color: red;
     }

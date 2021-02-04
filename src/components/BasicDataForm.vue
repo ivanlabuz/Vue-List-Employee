@@ -194,10 +194,12 @@ export default {
 <style scoped lang="scss">
 .form {
   overflow: auto;
-    height: 100%;
+  height: 100%;
+
   h3 {
     margin: 30px;
   }
+
   .button-wrapper {
     margin: 5px;
     margin-bottom: 15px;
@@ -217,6 +219,7 @@ export default {
     margin: 15px;
     display: flex;
     justify-content: center;
+
     .container {
       display: block;
       position: relative;
@@ -288,10 +291,12 @@ export default {
       outline: none;
       padding: 10px;
       border-radius: 4px;
+
       option {
         padding: 2px 0;
       }
     }
+
     .invalid {
       color: red;
     }
@@ -302,6 +307,7 @@ export default {
     height: 40px;
     flex-direction: column;
     display: flex;
+
     input {
       padding: 10px;
       border-radius: 4px;

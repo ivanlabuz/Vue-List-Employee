@@ -102,13 +102,16 @@ export default {
 <style scoped lang="scss">
 .form {
   overflow: auto;
-    height: 100%;
+  height: 100%;
+
   h3 {
     margin: 30px;
   }
+
   .button-wrapper {
     margin: 5px;
     margin-bottom: 15px;
+
     .button {
       background: #109cf1;
       border-radius: 10px;
@@ -124,12 +127,14 @@ export default {
     padding: 6px;
     margin: 15px 0;
     height: 50px;
+
     select {
       width: 80%;
       border: 1px solid grey;
       outline: none;
       padding: 10px;
       border-radius: 4px;
+
       option {
         padding: 2px 0;
       }

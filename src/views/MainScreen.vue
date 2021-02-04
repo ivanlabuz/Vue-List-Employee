@@ -2,9 +2,7 @@
   <div class="main-wrapper">
     <div class="wrapper">
       <template v-if="isListPage">
-        <ListEmployees
-          v-on:changeCurrentPage="changeCurrentPage"
-        />
+        <ListEmployees v-on:changeCurrentPage="changeCurrentPage" />
       </template>
       <template v-else>
         <template v-if="currentForm === 'Basic-form'">
@@ -45,6 +43,7 @@ export default {
         ...data,
         _id: new Date(),
       };
+
       this.currentForm = page;
 
       if (page === "Basic-form") {
@@ -55,6 +54,7 @@ export default {
           currentLocalStorage.push(this.newEmployee);
           localStorage.listEmployee = JSON.stringify(currentLocalStorage);
         }
+
         this.isListPage = true;
       }
     },
@@ -72,7 +72,7 @@ export default {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  
+
   .wrapper {
     width: 80%;
     border-radius: 5px;

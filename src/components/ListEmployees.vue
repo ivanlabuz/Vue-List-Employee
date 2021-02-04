@@ -101,7 +101,7 @@ export default {
     }
   }
 
-  @media screen and  (max-width: 426px) {
+  @media screen and (max-width: 426px) {
     overflow: hidden;
     height: 84%;
     .wrapper-list {
